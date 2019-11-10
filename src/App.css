@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.login-form {
+  border: 1px solid #0000001f;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.input-group {
+  padding: 5px;
+}
+
+.input-group .form-text {
+  width: 100%;
+  text-align: start;
+}
+
+#page-content {
+  width: 70%;
+  margin: auto;
+}
+
+#semester-selector {
+  margin-top: 50px;
+}
+
+.form-control {
+  border-radius: 0.25rem !important;
+}
+
+.card h1 {
+  text-align: left;
+}
+
+.create-card,
+.card {
+  margin-top: 50px;
+}
+
+.create-card h1 {
+  text-align: left;
+  width: fit-content;
+  margin-left: 15px;
+}
+
+.create-button {
+  margin-top: 28px;
+}
+
+.semester-selector-form {
+  margin-bottom: 40px;
+}
+
+.heading {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.heading-no-margin-left {
+  margin-left: 0 !important;
+  margin-bottom: 20px;
+  text-align: left !important;
+}
+
+.align-left {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.modal-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+}
+
+.button-margin {
+  margin-left: 20px;
+}
+
+#errorAlert {
+  text-align: left;
+}
